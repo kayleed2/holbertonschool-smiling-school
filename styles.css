@@ -47,6 +47,23 @@ button:hover {
   opacity: .9;
 }
 
+.table td {
+  border-top: 1px solid rgba(243, 243, 243, 0.3);
+}
+
+td {
+  padding: 5%;
+}
+
+.has-border {
+  border-top: 1px solid rgba(243, 243, 243, 0.3);
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-ssp-light);
+}
+
 @font-face {
     font-family: 'holberton_school-icon';
     src:  url('./holberton_school-icon/fonts/holberton_school-icon.eot?sq4eq4');
@@ -168,5 +185,17 @@ button:hover {
   text-transform: none;
   line-height: 1;
   color: #FFFFFF;
+  font-size: 30px;
+  }
+
+.checks [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'holberton_school-icon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #82d24f;
   font-size: 30px;
   }
