@@ -18,16 +18,32 @@
     style="
     background-image: url('./images-2/pic_3.jpg');
     height: fit-content;">
-        <header class="container d-flex justify-content-between align-items-center pt-4 mb-5">
-            <a href="./homepage.html"><img class="logo-img" src="./images-2/smile_off.png" alt="" style="height: 30px;"></a>
-            <a href="./homepage.html"><img src="./images-2/logo.png" class="mr-auto img-fluid ml-3" style="width: 112px;"></a>
-            <div class="nav-container container d-flex justify-content-end align-items-center">
-                <a class="p-2 active" href="./courses.html" style="font-family: var(--font-ssp-bold); color: #C271FF;">Courses</a>
-                <a class="p-2 text-white" href="./pricing.html" style="font-family: var(--font-ssp-bold);">Pricing</a>
-                <a class="p-2 text-white" href="./login.html" style="font-family: var(--font-ssp-bold);">Login</a>
+       <header class="container d-flex justify-content-between align-items-center pt-4 mb-5">
+        <nav class="navbar navbar-expand-sm w-100">
+            <div class="another-cont d-flex w-75">
+                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="holberton_school-icon-menu" style="font-size: 3rem;"></span></button>
+                <div class="logo d-flex">
+                    <a class="nav-link p-0" href="./homepage.html"><img class="logo-img" src="./images-2/smile_off.png" alt="" style="height: 30px;"></a>
+                    <a class="nav-link p-0" href="./homepage.html"><img src="./images-2/logo.png" class="mr-auto img-fluid ml-3" style="width: 112px;"></a>
+                </div>
             </div>
-        </header>
-        <div class="hero-container d-flex flex-column">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav nav-container container d-flex justify-content-end align-items-center">
+                    <li class="nav-item">
+                        <a class="p-2 nav-link" href="./courses.html" style="font-family: var(--font-ssp-bold); color: #C271FF;">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="p-2 text-white nav-link" href="./pricing.html" style="font-family: var(--font-ssp-bold);">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="p-2 text-white nav-link" href="./login.html" style="font-family: var(--font-ssp-bold);">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <div class="container hero-container d-flex flex-column">
             <div class="hero-container-1 container d-flex flex-column align-items-center mt-3 mb-5">
                 <div class="w-50">
                     <h1 class="text-white mb-5" style="
@@ -39,8 +55,8 @@
                 </div>
         </div>
     </main>
-    <section class="dropdown-container d-flex justify-content-center align-items-center" style="background-color: #C271FF; height: 9rem">
-        <div class="cont d-flex flex-column w-25 m-3">
+    <section class="dropdown-container d-flex justify-content-center align-items-center" style="background-color: #C271FF;">
+        <div class="cont1 d-flex flex-column w-25 m-3">
             <span style="font-family: var(--font-ssp-bold); color: #FFFFFF; font-size: .8rem;">Keywords</span>
             <div class="hero-container d-flex align-items-center justify-content-between" style="background-color: rgba(255, 255, 255, .25); height: 3rem;">
                 <div class="input-group rounded align-items-center">
@@ -49,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="cont d-flex flex-column w-25 m-3">
+        <div class="cont2 d-flex flex-column w-25 m-3">
             <span style="font-family: var(--font-ssp-bold); color: #FFFFFF; font-size: .8rem;">TOPIC</span>
             <div class="hero-container d-flex align-items-center justify-content-between" style="background-color: rgba(255, 255, 255, .25); height: 3rem;">
                 <div class="p-3" style="font-family: var(--font-ssp-light); color:#FFFFFF;">Novice</div>
@@ -64,7 +80,7 @@
                 </div>
             </div>
         </div>
-        <div class="cont d-flex flex-column w-25 m-3">
+        <div class="cont3 d-flex flex-column w-25 m-3">
             <span style="font-family: var(--font-ssp-bold); color: #FFFFFF; font-size: .8rem;">SORT BY</span>
             <div class="hero-container d-flex align-items-center justify-content-between" style="background-color: rgba(255, 255, 255, .25); height: 3rem;">
                 <div class="p-3" style="font-family: var(--font-ssp-light); color:#FFFFFF;">Most Popular</div>
@@ -87,7 +103,7 @@
         <div id="carouselExampleControlsbl" class="carousel slide" data-ride="carousel">
             <div class="profile-container d-flex justify-content-center">
                 <div class="carousel-inner d-flex flex-wrap w-75 justify-content-between">
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="" poster="./images-2/thumbnail_4.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -111,7 +127,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_3.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -135,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_1.jpg" ></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -159,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_2.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -183,7 +199,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="" poster="./images-2/thumbnail_4.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -207,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_3.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -231,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_1.jpg" ></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -255,7 +271,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_2.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -279,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="" poster="./images-2/thumbnail_4.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -303,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_3.jpg"></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>
@@ -327,7 +343,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card border-0" style="width: 16rem;">
+                    <div class="card border-0">
                         <video src="video.mp4" poster="./images-2/thumbnail_1.jpg" ></video>
                         <div class="playbtn">
                             <a href="" class="img-fluid w-25"><img class="img-fluid" src="./images-2/play.png" alt=""></a>

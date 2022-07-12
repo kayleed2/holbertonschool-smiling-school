@@ -19,14 +19,30 @@
     background-image: url('./images-2/pic_2.jpg');
     height: fit-content;
     background-position: 100% 0;">
-        <header class="container d-flex justify-content-between align-items-center pt-4 mb-5">
-            <a href="./homepage.html"><img class="logo-img" src="./images-2/smile_off.png" alt="" style="height: 30px;"></a>
-            <a href="./homepage.html"><img src="./images-2/logo.png" class="mr-auto img-fluid ml-3" style="width: 112px;"></a>
-            <div class="nav-container container d-flex justify-content-end align-items-center">
-                <a class="p-2 text-white" href="./0-courses.html" style="font-family: var(--font-ssp-bold);">Courses</a>
-                <a class="p-2 active" href="./pricing.html" style="font-family: var(--font-ssp-bold); color: #C271FF;">Pricing</a>
-                <a class="p-2 text-white" href="./login.html" style="font-family: var(--font-ssp-bold);">Login</a>
-            </div>
+         <header class="container d-flex justify-content-between align-items-center pt-4 mb-5">
+            <nav class="navbar navbar-expand-sm w-100">
+                <div class="another-cont d-flex w-75">
+                    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="holberton_school-icon-menu" style="font-size: 3rem;"></span></button>
+                    <div class="logo d-flex">
+                        <a class="nav-link p-0" href="./homepage.html"><img class="logo-img" src="./images-2/smile_off.png" alt="" style="height: 30px;"></a>
+                        <a class="nav-link p-0" href="./homepage.html"><img src="./images-2/logo.png" class="mr-auto img-fluid ml-3" style="width: 112px;"></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                    <ul class="navbar-nav nav-container container d-flex justify-content-end align-items-center">
+                        <li class="nav-item">
+                            <a class="p-2 text-white nav-link" href="./courses.html" style="font-family: var(--font-ssp-bold);">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="p-2 nav-link active" href="./pricing.html" style="font-family: var(--font-ssp-bold); color: #C271FF;">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="p-2 text-white nav-link" href="./login.html" style="font-family: var(--font-ssp-bold);">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <div class="hero-container d-flex flex-column">
             <div class="hero-container-1 container d-flex flex-column align-items-center mt-5">
@@ -121,11 +137,11 @@
         </div>
     </main>
     <section class="testimonials-container d-flex justify-content-center align-items-center" style="height: 25rem; background-color: var(--purp);">
-        <div id="carouselExampleControls" class="carousel slide w-75" style="height: 10rem;" data-interval="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active d-flex justify-content-center">
-                <div class="d-block w-75 d-flex" style="height: 10rem;">
-                    <img src="./images-2/profile_5.jpg" class="rounded-circle w-25 mr-5" alt="">
+        <div id="carouselExampleControls" class="carousel slide ml-5 mr-5" style="height: 10rem;" data-interval="false">
+            <div class="carousel-inner w-75 m-auto">
+              <div class="carousel-item active">
+                <div class="d-block d-flex" style="height: 11rem;">
+                    <img src="./images-2/profile_5.jpg" class="rounded-circle mr-3" alt="">
                     <div>
                         <p class="text-white" style="font-family: var(--font-ssp-reg);">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
                         <p class="text-white" style="font-family: var(--font-ssp-bold);">Person Name</p>
@@ -133,9 +149,9 @@
                     </div>
                 </div>
               </div>
-              <div class="carousel-item d-flex justify-content-center">
-                <div class="d-block w-75 d-flex" style="height: 10rem;">
-                    <img src="./images-2/profile_5.jpg" class="rounded-circle w-25 mr-5" alt="">
+              <div class="carousel-item">
+                <div class="d-block d-flex" style="height: 11rem;">
+                    <img src="./images-2/profile_5.jpg" class="rounded-circle mr-3" alt="">
                     <div>
                         <p class="text-white" style="font-family: var(--font-ssp-reg);">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
                         <p class="text-white" style="font-family: var(--font-ssp-bold);">Person Name</p>

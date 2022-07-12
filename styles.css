@@ -64,6 +64,61 @@ td {
   font-family: var(--font-ssp-light);
 }
 
+@media (max-width: 685px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 685px) and (max-width: 1440px) {
+  .card {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .smile-container {
+    flex-wrap: wrap;
+  }
+
+  .smile {
+    width: 40%;
+  }
+}
+
+@media (max-width: 576px) {
+  header.container {
+    justify-content: center !important;
+  }
+
+  .logo {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-left: 5%;
+  }
+
+  .logo a{
+    margin: auto auto 5% auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly !important; 
+  }
+
+  footer .logo {
+    margin: 0;
+  }
+
+  .copyright {
+    align-self: center !important;
+    order: 2;
+  }
+
+}
+
 @font-face {
     font-family: 'holberton_school-icon';
     src:  url('./holberton_school-icon/fonts/holberton_school-icon.eot?sq4eq4');
